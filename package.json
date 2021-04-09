@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "web3": "^1.3.5"
+  },
+  "devDependencies": {
+    "prompt-sync": "^4.2.0"
   }
 }

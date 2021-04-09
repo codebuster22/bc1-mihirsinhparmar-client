@@ -14,13 +14,13 @@
         <label for='valueinput'>
             New Value:-
         </label >
-        <input type="number" id="valueinput" onchange="handleInputChange" >
-        <button id='valuebtn' type="button" onclick="handleOnClick" >
+        <input type="number" id="valueinput" onchange="handleOnChange" >
+        <button id='valuebtn' type="button" onclick="handleOnSubmit" >
             Update Value
         </button >
     </form>
 
-    <script type="text/javascript" src="StorageContract.js" ></script>
+    <script type="text/javascript" src="artifacts/StorageAbi.js" ></script>
     <script type="text/javascript" src="node_modules/web3/dist/web3.min.js" ></script>
     <script type="text/javascript" src="index.js" ></script>
 </body>
